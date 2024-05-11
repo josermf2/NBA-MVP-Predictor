@@ -1,8 +1,6 @@
 import requests
 import time
 from selenium import webdriver
-import os
-from selenium.webdriver.common.keys import Keys
 import time
 
 years = range(1991,2024)
