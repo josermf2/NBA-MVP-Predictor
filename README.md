@@ -6,6 +6,9 @@ This project aims to predict the Most Valuable Player (MVP) of the NBA season us
 
 - **`scraping.py`**: Python script responsible for scraping data from basketball-reference.com.
 - **`pre_processing.ipynb`**: Jupyter Notebook for data manipulation and analysis.
+- **`ml.ipynb`**: Jupyter Notebook for loading and cleaning player MVP statistics data.
+- **`predictors.ipynb`**: Jupyter Notebook for loading and cleaning MVP data.
+- **`player_mvp_stats.csv`**: Mvps statistics. 
 - **`mvps/`**: Directory containing HTML mvp stats files from basketball-reference.com.
 - **`players/`**: Directory containing HTML players stats files from basketball-reference.com.
 - **`teams/`**: Directory containing HTML teams stats files from basketball-reference.com.
@@ -13,6 +16,7 @@ This project aims to predict the Most Valuable Player (MVP) of the NBA season us
   - **`mvps.csv`**: MVPs data.
   - **`players.csv`**: Player statistics data.
   - **`teams.csv`**: Team standings data.
+  - **`nicknames.txt`**: Nickname from the teams.
 
 ## Dependencies
 
@@ -25,6 +29,9 @@ This project aims to predict the Most Valuable Player (MVP) of the NBA season us
 
 1. Run `scraping.py` to fetch data from basketball-reference.com and save HTML pages.
 2. Execute `pre_processing.ipynb` to process the HTML pages and create CSV files.
+3. Execute `ml.ipynb` to load and clean player MVP statistics data from the generated CSV files.
+4. Execute `predictors.ipynb` to load and clean MVP data from the generated CSV files.
+
 
 ## Developers
 
